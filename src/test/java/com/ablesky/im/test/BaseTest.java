@@ -6,15 +6,19 @@ import org.junit.Before;
 public class BaseTest {
 	@Before
 	public void beforeTest() {
-		println("-------²âÊÔ¿ªÊ¼--------");
+		println("-------æµ‹è¯•å¼€å§‹--------");
 	}
 	
 	@After
 	public void afterTest() {
-		println("-------²âÊÔ½áÊø--------");
+		println("-------æµ‹è¯•ç»“æŸ--------");
 	} 
 
 	public void println(String str) {
 		 System.out.println(str);
+	}
+	
+	public void print(String str) {
+		 System.out.print(str);
 	}
 }
